@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<text onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+
+<p><b>We</b> have just started <b>this</b> section for the users (<b>beginner</b> to intermediate) who want to work with <b>various</b> JavaScript <b>problems</b> and write scripts online to <b>test</b> their JavaScript <b>skill</b>.</p>
+
+<script>
+function bigImg() {
+    var list = document.getElementsByTagName("P")[0];
+    list.getElementsByTagName("B")[0].style.color = 'red';
+    list.getElementsByTagName("B")[1].style.color = 'red';
+    list.getElementsByTagName("B")[2].style.color = 'red';
+    list.getElementsByTagName("B")[3].style.color = 'red';
+    list.getElementsByTagName("B")[4].style.color = 'red';
+    list.getElementsByTagName("B")[5].style.color = 'red';
+    list.getElementsByTagName("B")[0].style.color = 'red';
+    list.getElementsByTagName("B")[6].style.color = 'red';
+}
+
+function normalImg() {
+    var list = document.getElementsByTagName("P")[0];
+    list.getElementsByTagName("B")[0].style.color = 'blue';
+    list.getElementsByTagName("B")[1].style.color = 'blue';
+    list.getElementsByTagName("B")[2].style.color = 'blue';
+    list.getElementsByTagName("B")[3].style.color = 'blue';
+    list.getElementsByTagName("B")[4].style.color = 'blue';
+    list.getElementsByTagName("B")[5].style.color = 'blue';
+    list.getElementsByTagName("B")[0].style.color = 'blue';
+    list.getElementsByTagName("B")[6].style.color = 'blue';
+}
+</script>
+
+</body>
+</html>
